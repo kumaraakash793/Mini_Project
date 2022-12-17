@@ -11,7 +11,7 @@ if pin == password:
         print(" 1 == Balance")
         print(" 2 == Deposite ")
         print(" 3 == Withdraw ")
-        print(" 4 == cancel")
+        print(" 4 == Exit")
         choice=int(input("Enter You Option "))
         if choice ==1 :
             print(f"YOur Current Balance is {balance}")
